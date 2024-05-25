@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": ""
+    "start": "docker build -t hello-docker-js . && docker run -p 3000:3000 hello-docker-js"
   },
   "keywords": [],
   "author": "",
